@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+}
+h2, h3, h4 {
+    color: #666;
+}
+h1 {
+    font-size: 375%;
+}
+h2 {
+    font-size: 240%;
+    font-weight: 300;
+}
+h3 {
+    font-size: 130%;
+    font-weight: 400;
+}
+h4 {
+    font-size: 100%;
+    font-weight: 550;
+}
+hr {
+    width: 65px;
+    margin-top: 20px;
+    height: 2px;
+    border: 0;
+    background-color: #7bc551;
+}
+p{
+    color: #999;
+    font-size: 0.92em;
+}
+.seperate {
+    background-color: #eee;
+}
+.blank {
+    padding-top: 80px;
+}
+/*header*/
+nav {
+    float: right;
+    padding-top: 5px; 
+}
+header {
+    position: fixed;
+    float: right;
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 20px;
+    opacity: 0.9;
+}
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.wallpaper {
+    background: url(../img/header-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    height: 675px;
+}
+.banner {
+    padding-top: 180px;
+    text-align: center;
+}
+.banner h1{
+    color: white;
+    letter-spacing: 0.030em;
+    font-weight: 700;
+    line-height: 1.35;
+}
+.banner p {
+    color: #aaa;
+    font-weight: 10;
+    font-size: 120%; 
+}
+.optics {
+    color: #7bc551;
+}
+.learn {
+    text-decoration: none;
+    color: #7bc551;
+    font-size: 1.2em;
+    border: 1px solid #7bc551;
+    padding: 13px;
+    border-radius: 5%;
+}
+.learn:hover {
+    background-color: #7bc551;;
+    color: white;
+}
+#logo {
+    text-decoration: none;
+    color: #ddd;;
+    font-size: 60%;
+    font-weight: 700;
+    float: left;
+}
+#home li {
+    display: inline;
+}
+#home li a {
+    text-decoration: none;
+    color: white;
+    font-size: 78%;
+    color: #aaa;
+    padding: 0 12px 0 12px;
+    letter-spacing: 0.020em;
+}
+#home li a:hover {
+    color: #7bc551;
+}
+/**End of Header**/
+
+/*start of about*/
+.about {
+    height: 500px;
+}
+.one-third {
+    width: 30%;
+    padding-top: 95px;
+    padding-right: 30px;
+    float: left;
+}
+.one-third p{
+    padding-top: 30px;
+    line-height: 1.5em;
+}
+.one-third  hr{
+    height: 1px;
+}
+#who hr, #what hr {
+    width: 33%;
+}
+#why hr{
+    width: 43%;
+}
+/*End of about*/
+
+/*Start of services*/
+.services {
+    height: 700px;
+}
+.row {
+    padding-top: 20%;
+}
+.row-adjustment {
+    padding-top: 95px;
+}
+.one-fourth {
+    width: 25%;
+    float: left;
+}
+.one-fourth hr {
+    height: 1px;
+}
+.one-fourth h3 {
+    padding-top: 20px;
+    font-weight: normal;
+}
+.one-fourth p {
+    padding-top: 10px;
+    line-height: 1.5em;
+}
+#desktop {
+    font-size: 2.1em;
+    color: #7bc551;
+}
+#web-design hr, #e-commerce hr {
+    width: 40%;
+}
+#app hr {
+    width: 61%;
+}
+#analytics hr {
+    width: 30%;
+}   
+#marketing hr {
+    width: 34%;
+}
+#content hr,#video hr {
+    width: 75%;
+}
+#branding hr {
+    width: 31%;
+}
+/*End of services*/
+
+/*Portfolio Section*/
+.portfolio {
+    height: 700px;
+}
+.portfolio-container {
+    padding-top: 95px;
+}
+.one-fourth-image {
+    box-sizing: border-box;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    padding-top: 90px;
+    width: 22%;
+    height: 200px;
+    float: left;
+}
+#pic-01 {
+    background: url(../img/portfolio/01.jpg) no-repeat center;
+    background-size: cover;
+}
+#pic-02 {
+    background: url(../img/portfolio/02.jpg) no-repeat center;
+    background-size: cover;
+}
+#pic-03 {
+    background: url(../img/portfolio/03.jpg) no-repeat center;
+    background-size: cover;
+}
+#pic-04 {
+    background: url(../img/portfolio/04.jpg) no-repeat center;
+    background-size: cover;
+}
+#pic-05 {
+    background: url(../img/portfolio/05.jpg) no-repeat center;
+    background-size: cover;
+}
+#pic-06 {
+    background: url(../img/portfolio/06.jpg) no-repeat center;
+    background-size: cover;
+}
+#pic-07 {
+    background: url(../img/portfolio/07.jpg) no-repeat center;
+    background-size: cover;
+}
+#pic-08 {
+    background: url(../img/portfolio/08.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Start of meet the team*/
+.meet {
+    height: 550px;
+}
+.whole-team {
+    padding-top: 63px;
+    padding-left: 20px;
+}
+.img-team {
+    width: 20%;
+    float: left;
+    padding-right: 50px;
+}
+.img-team h4 {
+    color:black;
+    padding-top: 15px;
+}
+.img-team p{
+    padding-top: 10px;
+}
+.img-team hr {
+    height: 1px;
+}
+.doe {
+    height: 165px;
+}
+/*End of meet section*/
+
+/*Contact section*/
+form a {
+    text-decoration: none;
+    color: #7bc551;
+    border: 1px solid #7bc551;
+    padding: 10px 15px;
+    border-radius: 5%;
+}
+form a:hover {
+    background-color: #7bc551;
+    color: white;
+}
+address p {
+    display: inline;
+}
+.contact {
+    height: 550px;
+}
+.contact-body {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.contact-position {
+    float: left;
+    width: 35%;
+}
+.contact-position h3 {
+    padding-bottom: 30px;
+}
+.forms {
+    width: 60%;
+}
+.inputs {
+    width: 40%;
+    height: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    border: 1px solid #bbb;
+}
+input:focus, #mess:focus {
+    border: 1px solid black;
+    background-color: white;
+    outline: none;
+}
+#mess {
+    resize: none;
+    width: 88.5%;
+    height: 85px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1em;
+    font-family: 'Open Sans',sans-serif;
+    border: 1px solid #bbb;
+}
+#logo-2 {
+    color: #7bc551;
+    padding-right: 15px;
+    padding-bottom: 55px;
+}
+/*End of contact us*/
+
+/*social section*/
+#logo-3 {
+    color: #7bc551;
+    font-size: 30px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+/*end of social section*/
+
+/*footer*/
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.897);
+    margin-top:15px;
+}
+footer p{
+    font-size: 0.8em;
+}
+/*end of footer*/
